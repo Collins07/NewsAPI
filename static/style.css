@@ -1,12 +1,30 @@
 #main{
-    border: 1px solid red;
-    height: 500px;
+    height: 550px;
 }
 #col1{
-    border: 1px solid blue;
+
     height: 100px;
+    background-color: rgb(58, 58, 131);
 }
 #col2{
-    border: 1px solid black;
-    height: 380px;
+
+    height: 450px;
+    background-image: url("new2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    margin-top: 5%;
+}
+li{
+    padding-left: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+   
+}
+li:hover{
+    cursor: pointer;
+    margin-top: 5px;
+    color: brown;
 }
