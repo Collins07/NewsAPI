@@ -28,3 +28,11 @@ li:hover{
     margin-top: 5px;
     color: brown;
 }
+.head1{
+    border: 1px solid red;
+    height: 200px;
+}
+.head2{
+    border: 1px solid black;
+    height: 200px;
+}
