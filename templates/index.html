@@ -27,9 +27,13 @@
 
 
 
-    <div class="head1">
-        <h5>TOP HEADLINES</h5>
+    <div class="head1"><h5>TODAY'S TOP HEADLINES</h5></div>
+    {% for title,desc,img,p_date,url in contents%}
+    <div class="wrapper">
+        <div class="item"> <a href="{{url}}"><img src="{{img}}" ></a> </div>
+        <div class="item"></div>
     </div>
+    {% endfor %}
     <div class="head2">
         <h5>TODAY'S NEWS</h5>
     </div>
