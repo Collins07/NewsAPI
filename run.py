@@ -13,6 +13,14 @@ def home():
 
     top_headlines = newsapi.get_top_headlines(sources= "bbc-news" )
 
+    t_headlines = top_headlines['articles']
+
+    news = []
+    desc = []
+    img = []
+    p_date = []
+    url = []
+
 
     return render_template('index.html')
 
