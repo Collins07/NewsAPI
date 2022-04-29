@@ -1,0 +1,12 @@
+#main{
+    border: 1px solid red;
+    height: 500px;
+}
+#col1{
+    border: 1px solid blue;
+    height: 100px;
+}
+#col2{
+    border: 1px solid black;
+    height: 380px;
+}
