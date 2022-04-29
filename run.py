@@ -22,6 +22,13 @@ def home():
     url = []
 
     for i in range(len(t_articles)):
+        main_article = t_articles[i]
+
+        news.append(main_article["title"])
+        desc.append(main_article["description"])
+        img.append(main_article["urlToImage"])
+        p_date.append(main_article["publishedAt"])
+        url.append(main_article["url"])
 
 
     return render_template('index.html')
