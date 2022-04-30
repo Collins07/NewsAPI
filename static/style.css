@@ -29,10 +29,30 @@ li:hover{
     color: brown;
 }
 .head1{
-    border: 1px solid red;
-
+    margin-top: 2%;
 }
 .head2{
     border: 1px solid black;
-
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+.item1{
+    margin-top: 3%;
+    height: 350px;
+}
+.item2{
+    margin-top: 3%;
+    height: 350px;
+    margin-left: 5%;
+}
+img{
+    height: 350px;
+}
+.wrapper{
+    display: flex;
+}
+.title{
+    color: brown;
 }

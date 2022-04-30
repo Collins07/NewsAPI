@@ -27,11 +27,15 @@
 
 
 
-    <div class="head1"><h5>TODAY'S TOP HEADLINES</h5></div>
+    <div class="head1"><h2> TOP HEADLINES</h2></div>
     {% for title,desc,img,p_date,url in contents%}
-    <div class="wrapper">
-        <div class="item"> <a href="{{url}}"><img src="{{img}}" ></a> </div>
-        <div class="item"></div>
+    <div class="wrapper" >
+        <div class="item1"> <a href="{{url}}"><img src="{{img}}" ></a> </div>
+        <div class="item2">
+            <p ><a class="title" href="{{url}}"><h4>{{title}}</h4></a></p>
+            <p><a href="{{url}}"><p>{{desc}}</p></a></p>
+            <p>Published On: {{p_date}}</p>
+        </div>
     </div>
     {% endfor %}
     <div class="head2">
