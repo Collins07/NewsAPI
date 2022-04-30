@@ -42,13 +42,13 @@ def home():
     url_all = []
 
     for j in range(len(a_articles)):
-        a_articles = a_articles[j]
+        a_article = a_articles[j]
 
-        news_all.append(main_article["title"])
-        desc_all.append(main_article["description"])
-        img_all.append(main_article["urlToImage"])
-        p_date_all.append(main_article["publishedAt"])
-        url_all.append(main_article["url"])
+        news_all.append(a_article ["title"])
+        desc_all.append(a_article ["description"])
+        img_all.append(a_article ["urlToImage"])
+        p_date_all.append(a_article ["publishedAt"])
+        url_all.append(a_article ["url"])
 
         contents = zip(news,desc,img,p_date,url)
         
