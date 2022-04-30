@@ -29,30 +29,42 @@ li:hover{
     color: brown;
 }
 .head1{
-    margin-top: 2%;
+    height: 100px;
+    background-color: rgb(58, 58, 131);
 }
 .head2{
-    border: 1px solid black;
+    height: 100px;
+    background-color: rgb(58, 58, 131);
 }
+
 h2{
-    text-decoration: underline;
+    color: white;
     text-align: center;
+    padding-top: 7%;
 }
 .item1{
     margin-top: 3%;
-    height: 350px;
+ 
 }
 .item2{
     margin-top: 3%;
-    height: 350px;
+
     margin-left: 5%;
 }
 img{
-    height: 350px;
+    height: 270px;
 }
 .wrapper{
-    display: flex;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 4.5%;
 }
+
 .title{
     color: brown;
+}
+.main{
+    display: flex;
 }
