@@ -35,7 +35,7 @@ li:hover{
 .head2{
     height: 100px;
     background-color: rgb(58, 58, 131);
-    border: 1px solid green;
+
     width: 75%;
 }
 
@@ -62,7 +62,7 @@ img{
     margin-left: 10%;
     text-align: justify;
     margin-top: 12%;
-    border: 1px solid red;
+
 }
 .wrapper1{
     font-size: 15px;
@@ -70,7 +70,7 @@ img{
     margin-left: 10%;
     text-align: justify;
     margin-top: 12%;
-    border: 1px solid red;
+
 }
 
 .title{
