@@ -35,31 +35,42 @@ li:hover{
 .head2{
     height: 100px;
     background-color: rgb(58, 58, 131);
+    border: 1px solid green;
+    width: 75%;
 }
 
 h2{
     color: white;
     text-align: center;
-    padding-top: 7%;
+    padding-top: 5%;
 }
 .item1{
     margin-top: 3%;
- 
+
 }
 .item2{
     margin-top: 3%;
-
     margin-left: 5%;
 }
 img{
     height: 270px;
+    width: 500px;
 }
 .wrapper{
     font-size: 15px;
-    width: 90%;
+    width: 80%;
     margin-left: 10%;
     text-align: justify;
-    margin-top: 4.5%;
+    margin-top: 12%;
+    border: 1px solid red;
+}
+.wrapper1{
+    font-size: 15px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 12%;
+    border: 1px solid red;
 }
 
 .title{

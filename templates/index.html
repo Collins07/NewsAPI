@@ -42,9 +42,10 @@
 
 
 
-    <div class="head2"><h2>TODAY'S NEWS</h2>
+    <div class="head2">
+        <h2>TODAY'S NEWS</h2>
     {% for title,desc,img,p_date,url in all%}
-    <div class="wrapper" >
+    <div class="wrapper1" >
         <div class="item1"> <a href="{{url}}"><img src="{{img}}" ></a> </div>
         <div class="item2">
             <p ><a class="title" href="{{url}}"><h4>{{title}}</h4></a></p>
